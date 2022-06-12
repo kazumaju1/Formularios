@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<! primer formulario >
+    <form class="cmamoform1" action="registrardatos.php" method="post">
+        <h1>Formulario 1</h1>
+        <input class= "controls" type="text" name="nombre" placeholder="Nombre">
+        <input class= "controls" type="password" name="clave" placeholder="Contraseña">
+        <br>
+        <input class= "botons" type="submit" value="enviar">
+        <input class= "botons" type="reset" value="borrar">
+    </form>
+
+<! segundo formulario >
+
+    <form class="cmamoform2" action="registrardatos.php" method="post">
+        <h1>Formulario 2</h1>
+        <input class="controls" type="text" name="nombre" placeholder="Nombre"><br>
+        <input class="controls" type="text" name="mail" placeholder="Email"><br><br>
+        <textarea class="textarea" name="comentarios" rows="5" cols="50" placeholder="Comentarios"></textarea> 
+        <br>
+        <input class="botons" type="submit" value="Enviar">
+    </form>
+
+<! tercer formulario >
+
+  
+    <form class="cmamoform3" action="registrardatos.php" method="post">
+        <h1>Formulario 3</h1>
+        <input class="controls" type="text" name="nombre" placeholder="Nombre"><br>
+        <p>Seleccione los lenguajes que conoce:</p>
+        <input class="eleccion" type="checkbox" name="java">Java<br>
+        <input class="eleccion" type="checkbox" name="cmasmas">C++<br>
+        <input class="eleccion" type="checkbox" name="c">C<br>
+        <input class="eleccion" type="checkbox" name="csharp">C#<br>
+        <input class="botons" type="submit" value="Enviar">
+    </form>
+</body>
+</html>
