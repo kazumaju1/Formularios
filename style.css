@@ -1,4 +1,5 @@
-.cmamoform1 .controls{
+ /* primer formulario */ 
+ .controls{
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -7,9 +8,9 @@
     border: 1px solid #1f53c5;
     font-family: 'calibri';
     font-size: 18px;
-}
-
-.cmamoform1{
+  }
+  
+  .cmamoform1{
     width: 400;
     background: #24303c;
     padding: 30px;
@@ -19,37 +20,39 @@
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
-}
-
-.cmamoform1 .botons{
+  }
+  
+  .cmamoform1 .botons{
     width:45%;
     background: #1f53c5;
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
-    font-size: 16px;
-}
-
-.cmamoform1 h1{
-    font-size: 22px;
+    font-size: 20px;
+    font-family: 'calibri';
+    border-radius:4px;
+  }
+  
+  .cmamoform1 .botons:hover{
+    background: linear-gradient(#424242, #452acb);
+  }
+  
+  .botons:hover{
+    background: linear-gradient(#424242, #452acb);
+  }
+  
+  .titulo{
+    font-size: 32px;
     margin-bottom: 20px;
     text-align:center;
     font-family: 'calibri';
-}
-
-.cmamoform2 .controls{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius:4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-}
-
-.cmamoform2{
+  }
+  
+   /* segundo formulario */ 
+  
+  
+  .cmamoform2{
     width: 400;
     background: #24303c;
     padding: 30px;
@@ -59,19 +62,22 @@
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
-}
-
-.cmamoform2 .botons{
+  }
+  
+  .botons{
     width:100%;
     background: #1f53c5;
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
-    font-size: 16px;
-}
-
-.cmamoform2 .textarea{
+    font-size: 20px;
+    border-radius:4px;
+    cursor: pointer;
+    font-family: 'calibri'
+  }
+  
+  .cmamoform2 .textarea{
     width: 60%;
     padding: 10px;
     border-radius:4px;
@@ -79,16 +85,44 @@
     border: 1px solid #1f53c5;
     font-family: 'calibri';
     font-size: 18px;
-}
-
-.cmamoform2 h1{
+  }
+  
+  
+   /* tercer formulario */ 
+  
+  .cmamoform3 .eleccion{
+    background: #ededed;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    font-family: 'calibri';
+  }
+  
+  
+  .cmamoform3{
+    width: 400;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  
+  
+  p{
     font-size: 22px;
     margin-bottom: 20px;
-    text-align:center;
     font-family: 'calibri';
-}
+  }
+  
+   /* cuarto formulario */ 
 
-.cmamoform3 .eleccion{
+.cmamoform4 .eleccion{
     background: #ededed;
     width: 20px;
     height: 20px;
@@ -97,18 +131,8 @@
     font-family: 'calibri';
 }
 
-.cmamoform3 .controls{
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius:4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-}
 
-.cmamoform3{
+.cmamoform4{
     width: 400;
     background: #24303c;
     padding: 30px;
@@ -120,25 +144,327 @@
     box-shadow: 7px 13px 37px #000;
 }
 
-.cmamoform3 .botons{
-    width:100%;
+
+
+  /* quinto formulario */
+
+
+.cmamoform5{
+    width: 400;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position: relative;
+}
+
+
+.content-input input,
+.cmamoform5 select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.cmamoform5 select{
+    display: inline-block;
+    width: 30%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0; 
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family: 
+    'Quicksand', sans-serif;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+
+}
+
+.cmamoform5 select:hover{
+    background: #b0c6e8;
+}
+
+.cmamoform5 i{
+    position: absolute;
+    right: 940px;
+    top: calc(65% - 13px);
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-left:4px solid #4187e1;
+    border-bottom:4px solid #4187e1;
+    transition: all 0.25s ease;
+    transform: rotate(-45deg); /* Giramos el cuadrado */
+
+}
+
+.cmamoform5:hover i{
+    margin-top: 3px;
+}
+
+.cmamoform5 .select:-ms-expand {
+    display: none;
+}
+
+/* sexto formulario */
+
+
+.cmamoform6{
+    width: 400;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position: relative;
+}
+
+
+.content-input input,
+.select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.cmamoform6 select{
+    display: inline-block;
+    width: 30%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 100px;
+    outline: 0; 
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family: 
+    'Quicksand', sans-serif;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    z-index: 1;
+}
+
+
+  /* septimo formulario */
+
+.cmamoform7{
+    width: 400;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position: relative;
+}
+
+.cmamoform7 i{
+    position: absolute;
+    right: 940px;
+    top: calc(54% - 13px);
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-left:4px solid #4187e1;
+    border-bottom:4px solid #4187e1;
+    transition: all 0.25s ease;
+    transform: rotate(-45deg); /* Giramos el cuadrado */
+
+}
+
+.cmamoform7:hover i{
+    margin-top: 3px;
+}
+
+.cmamoform7 .select:-ms-expand {
+    display: none;
+}
+
+.cmamoform7 select{
+    display: inline-block;
+    width: 30%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0; 
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family: 
+    'Quicksand', sans-serif;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+
+  /* octavo formulario */
+
+.cmamoform8{
+    width: 400;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position: relative;
+}
+
+.cmamoform8 .botons {
+    width:45%;
     background: #1f53c5;
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: 'calibri';
+    border-radius:4px;
 }
 
-.cmamoform3 h1{
+.cmamoform8 .botons:hover{
+    background: linear-gradient(#424242, #452acb);
+}
+
+
+.cmamoform8 .botons .img2{
+    height: 30px;
+    position: absolute;
+    right: 300px;
+    top: calc(75% - 13px);
+}
+
+.cmamoform8 .botons .img1{
+    height: 30px;
+    position: absolute;
+    right: 900px;
+    top: calc(75% - 13px);
+}
+
+
+  /* noveno formulario */
+
+.cmamoform9{
+    width: 400;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    position: relative;
+}
+
+.cmamoform9 .buton{
+
+    font-family: Arial;
     font-size: 22px;
-    margin-bottom: 20px;
-    text-align:center;
-    font-family: 'calibri';
+    padding: 20px 30px;
+    text-decoration: none;
+    background: linear-gradient(#f2f2f2, #8d7dde);
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    text-align: center;
+    margin: 0;
+    text-shadow: 0 0 2px rgba(0,0,0,.1);
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.cmamoform3 p{
-    font-size: 18px;
-    margin-bottom: 20px;
+.buton:hover{
+    background: linear-gradient(#292f7f, #ababab);
+}
+
+/* decimo formulario*/
+
+.cmamoform10{
+    
+    width: 400;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
     font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.cmamoform10 label{
+    padding: 9px 6px;
+    width: 25%;
+    background: linear-gradient(#cdcdd6, #8d7ccb);
+    color: white;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 20px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+label:hover{
+    background: linear-gradient(#292f7f, #ababab);
+}
+
+  /* onceavo formulario */
+
+.cmamoform11{
+    width: 400;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius:4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
 }

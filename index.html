@@ -8,32 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<! primer formulario >
+  <! primer formulario >
     <form class="cmamoform1" action="registrardatos.php" method="post">
-        <h1>Formulario 1</h1>
+      <h1 class="titulo">Formulario 1</h1>
         <input class= "controls" type="text" name="nombre" placeholder="Nombre">
         <input class= "controls" type="password" name="clave" placeholder="Contraseña">
         <br>
         <input class= "botons" type="submit" value="enviar">
         <input class= "botons" type="reset" value="borrar">
     </form>
-
+  
 <! segundo formulario >
-
+  
     <form class="cmamoform2" action="registrardatos.php" method="post">
-        <h1>Formulario 2</h1>
+      <h1 class="titulo">Formulario 2</h1>
         <input class="controls" type="text" name="nombre" placeholder="Nombre"><br>
         <input class="controls" type="text" name="mail" placeholder="Email"><br><br>
         <textarea class="textarea" name="comentarios" rows="5" cols="50" placeholder="Comentarios"></textarea> 
         <br>
         <input class="botons" type="submit" value="Enviar">
-    </form>
+      </form>
 
-<! tercer formulario >
+  <! tercer formulario >
 
   
-    <form class="cmamoform3" action="registrardatos.php" method="post">
-        <h1>Formulario 3</h1>
+      <form class="cmamoform3" action="registrardatos.php" method="post">
+      <h1 class="titulo">Formulario 3</h1>
         <input class="controls" type="text" name="nombre" placeholder="Nombre"><br>
         <p>Seleccione los lenguajes que conoce:</p>
         <input class="eleccion" type="checkbox" name="java">Java<br>
@@ -41,6 +41,173 @@
         <input class="eleccion" type="checkbox" name="c">C<br>
         <input class="eleccion" type="checkbox" name="csharp">C#<br>
         <input class="botons" type="submit" value="Enviar">
+      </form>
+
+    <! cuarto formulario >
+  <form class="cmamoform4" action="registrardatos.php" method="post">
+  <h1 class="titulo">Formulario 4</h1>
+    <input class="controls" type="text" name="nombre" placeholder="Nombre"><br>
+    <p>Seleccione el máximo nivel de estudios que tiene:</p>
+    <br>
+    <input class="eleccion" type="radio" name="estudios" value="1">Sin 
+    estudios<br>
+    <input class="eleccion" type="radio" name="estudios" value="2">Primario<br>
+    <input class="eleccion" type="radio" name="estudios" value="3">Secundario<br>
+    <input class="eleccion" type="radio" name="estudios" value="4">Universitario<br>
+    <input class="botons" type="submit" value="Enviar">
+  </form
+       
+    <! quinto formulario >
+  <form class="cmamoform5" action="registrardatos.php" method="post">
+    <h1 class="titulo">Formulario 5</h1>
+    <input class="controls" type="text" name="nombre" placeholder="Nombre"><br>
+    <p>Seleccione su pais:</p> 
+    <select class="select" name="pais">
+      <option value="1">Argentina</option>
+      <option value="2">España</option>
+      <option value="3">México</option>
+      <option value="4">Guatemala</option>
+      <option value="5">Honduras</option>
+      <option value="7">El Salvador</option>
+      <option value="8">Venezuela</option>
+      <option value="9">Colombia</option>
+      <option value="10">Cuba</option>
+      <option value="11">Bolivia</option>
+      <option value="13">Perú</option>
+      <option value="14">Ecuador</option>
+      <option value="15">Paraguay</option>
+      <option value="16">Uruguay</option>
+      <option value="17">Chile</option>
+    </select>
+    <i></i>
+    <br>
+    <input class="botons" type="submit" value="Enviar">
+  </form>
+
+    <! sexto formulario >
+
+  
+    <form class="cmamoform6" action="registrardatos.php" method="post">
+      <h1 class="titulo">Formulario 6</h1>
+    <p>Seleccione uno o varios colores (Presione Ctrl para seleccionar varios colores)</p><br>
+    <select class="select" name="colores[]" size="4" multiple>
+      <option value="1">Rojo</option>
+      <option value="2">Verde</option>
+      <option value="3">Azul</option>
+      <option value="4">Amarillo</option>
+      <option value="5">Blanco</option>
+      <option value="6">Negro</option>
+      <option value="7">Naranja</option>
+      <option value="8">Violeta</option>
+    </select>
+    <br>
+    <input class="botons" type="submit" value="Enviar">
+  </form>
+
+  
+    <! septimo formulario >
+
+  
+  <form class="cmamoform7" action="registrardatos.php" method="post">
+      <h1 class="titulo">Formulario 7</h1>
+      <p>Seleccione una fruta o verdura:</p>
+      <select class="select" name="articulo">
+      <optgroup label="Frutas">
+        <option value="1">Naranjas</option>
+        <option value="2">Manzanas</option>
+        <option value="3&guot;Sandia</option>
+        <option value="4">Frutilla</option>
+        <option value="5">Durazno</option>
+        <option value="6">Ciruela</option>
+      </optgroup>
+      <optgroup label="Verduras">
+        <option value="7">Lechuga</option>
+        <option value="8">Acelga</option>
+        <option value="9">Zapallo</option>
+        <option value="10">Papas</option>
+        <option value="11">Batatas</option>
+        <option value="13">Zanahorias</option>
+        <option value="14">Rabanitos</option>
+        <option value="15">Calabaza</option>
+      </optgroup>
+    </select>
+    <i></i>
+    <br>
+    <input class="botons" type="submit" value="Enviar">
+  </form>
+
+  
+   <! octavo formulario >
+
+   <form class="cmamoform8" action="registrardatos.php" method="post">
+     <h1 class="titulo">Formulario 8</h1>
+    <input class="controls" type="text" name="nombre" placeholder="Nombre">
+    <br>
+    <button class="botons" type="submit">Enviar<img class="img1" src="enviar.png" alt="envio"></button>
+    <button class="botons" type="reset">Borrar<img class="img2" src="basura.png" alt="borrado"></button>
+  </form>
+
+  
+       <! decimo formulario >
+
+  <form class="cmamoform10" action="registrardatos.php" method="post" enctype="multipart/form-data">
+    <h1 class="titulo">Formulario 10</h1>
+    <input class="controls" type="text" name="nombre" placeholder="Nombre"><br>
+    <p>Seleccione la foto:</p>
+    <label for="archivos">Seleccionar archivo</label>
+    <input id="archivos" type="file" name="foto" placeholder="Archivos">
+    <br>
+    <input class="botons" type="submit" value="Enviar">
+  </form>
+
+   <! onceavo formulario >
+
+  <form class="cmamoform11" action="registrardatos.php" method="post">
+    <h1 class="titulo">Formulario 11</h1>
+    <input class="controls" type="text" name="nombre" placeholder="Nombre">
+    <br>
+    <input class="oculto" type="hidden" value="10:20" name="hora">
+    
+    <input class="botons" type="submit" value="Enviar">
+  </form>
+
+
+
+
+
+
+  <! noveno formulario >
+  
+  <form class="cmamoform9" action="registrardatos.php" method="post">
+    <h1 class="titulo">Formulario 9<h1>
+    <input class="buton" type="button" name="boton7" value=" 7 ">
+    <input class="buton" type="button" name="boton8" value=" 8 ">
+    <input class="buton" type="button" name="boton9" value=" 9 ">
+    <input class="buton" type="button" name="botondiv" value=" / ">
+    <br>
+    <input class="buton" type="button" name="boton4" value=" 4 ">
+    <input class="buton" type="button" name="boton5" value=" 5 ">
+    <input class="buton" type="button" name="boton6" value=" 6 ">
+    <input class="buton" type="button" name="botondiv" value=" * ">
+    <br>
+    <input class="buton" type="button" name="boton1" value=" 1 ">
+    <input class="buton" type="button" name="boton2" value=" 2 ">
+    <input class="buton" type="button" name="boton3" value=" 3 ">
+    <input class="buton" type="button" name="botonmas" value=" + ">
+    <br>
+    <input class="buton" type="button" name="boton0" value=" 0 ">
+    <input class="buton" type="button" name="botonigual" value=" = ">
+    <input class="buton" type="button" name="botonmenos" value=" - ">
     </form>
+
+      
 </body>
 </html>
+
+
+
+
+
+
+
+      
